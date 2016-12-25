@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--菜单的分组-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_address"
+            android:icon="@mipmap/ic_notifications"
+            android:title="博客地址"/>
+        <item
+            android:icon="@mipmap/ic_notifications"
+            android:title="版本信息"/>
+        <item
+            android:icon="@mipmap/ic_notifications"
+            android:title="关于我"/>
+    </group>
+
+    <!--菜单分组的第二种形式-->
+    <item android:title="Sub 组">
+        <menu>
+            <item
+                android:icon="@mipmap/ic_notifications"
+                android:title="切换主题"/>
+            <item
+                android:icon="@mipmap/ic_notifications"
+                android:title="退出应用"/>
+        </menu>
+    </item>
+</menu>
